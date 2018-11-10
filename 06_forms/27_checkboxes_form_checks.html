@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <title>Checkboxes and Form Checks</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="#">
+        <h1 class="display-4 my-3">Form Checks</h1>
+
+        <hr>
+
+        <div class="form-group">
+          <h3>Checkboxes</h3>
+          <h5>Regular</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="chickens" id="chickens">
+            <label class="form-check-label" for="chickens">Chickens</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="cats" id="cats">
+            <label class="form-check-label" for="cats">Cats</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="rabbits" id="rabbits">
+            <label class="form-check-label" for="rabbits">Rabbits</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="cows" id="cows" disabled>
+            <label class="form-check-label" for="rabbits">Cows (disabled)</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <h5>Inline</h5>
+          <div class="form-check-inline">
+            <input class="form-check-input" type="checkbox" name="chickens" id="chickens">
+            <label class="form-check-label" for="chickens">Chickens</label>
+          </div>
+          <div class="form-check-inline">
+            <input class="form-check-input" type="checkbox" name="cats" id="cats">
+            <label class="form-check-label" for="cats">Cats</label>
+          </div>
+          <div class="form-check-inline">
+            <input class="form-check-input" type="checkbox" name="rabbits" id="rabbits">
+            <label class="form-check-label" for="rabbits">Rabbits</label>
+          </div>
+          <div class="form-check-inline">
+            <input class="form-check-input" type="checkbox" name="cows" id="cows" disabled>
+            <label class="form-check-label" for="rabbits">Cows (disabled)</label>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="form-group">
+          <h3>Radio Buttons</h3>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pets" id="petChickens">
+            <label class="form-check-label" for="petChickens">Chickens</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pets" id="petCats">
+            <label class="form-check-label" for="petCats">Cats</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pets" id="petRabbits">
+            <label class="form-check-label" for="petRabbits">Rabbits</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="pets" id="petCows" disabled>
+            <label class="form-check-label" for="petRabbits">Cows (disabled)</label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
